@@ -1,4 +1,4 @@
-# Project Title
+# Diagnosis of COVID-19 and its clinical spectrum
 
 ## Table of Contents
 1. [Background](#Background)
