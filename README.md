@@ -1,13 +1,43 @@
-Welcome to my project, the goal of this project is to support clinical decisions using Data Science techniques.
-More details are avaiable on my github page and inside my notebooks.
+# Project Title
+
+## Table of Contents
+1. [Background](#Background)
+2. [Dataset](#Dataset)
+3. [Submission Expectations](#SubmissionExpectations)
+3. [Evaluation Criteria](#EvaluationCriteria)
+4. [Additional Notes](#AdditionalNotes)
+
+### Summary of the COVID-19 Dataset
+
+#### **Background**
+- The dataset originates from Hospital Israelita Albert Einstein in São Paulo, Brazil, during the COVID-19 pandemic.
+- Brazil recorded its first case on February 26, with rapid community transmission leading to overburdened health systems.
+- The dataset was collected in the context of an overwhelmed health system, limiting SARS-CoV-2 testing capabilities.
+
+#### **Dataset**
+- Contains anonymized data from patients tested for SARS-CoV-2 RT-PCR along with additional lab tests.
+- Data are standardized to a mean of zero and a unit standard deviation.
+
+#### **Task**
+1. **Predict COVID-19 Positive Cases**:
+   - Use lab test results from suspected cases to predict SARS-CoV-2 positivity.
+#### **Submission Expectations**
+- Submit a comprehensive notebook detailing data preparation, model creation, and evaluation.
+- Use the dataset provided or any other relevant data.
+- This is not a formal competition, and the focus is on the process rather than strict metric evaluation.
+
+#### **Evaluation Criteria**
+- **Model Performance**: How well does the model generalize and perform in real scenarios?
+- **Data Preparation**: Through analysis and useful visualizations.
+
+#### **Additional Notes**
+- Decision-making in healthcare is complex and reflected in the dataset's sparsity.
+- Clinical and exposure data are not currently available, emphasizing lab results for model development.
+- The challenge aims to develop a model useful for routine clinical care with commonly ordered lab tests.
+
+https://www.kaggle.com/datasets/einsteindata4u/covid19/data
 
 
-How to run it ?
 
-Fonction.py contain a function that both fit and print for ML model
-data_clearing.ipynb file contain the detail on how I preprocessed data to optimize performances it should be launched first to setup data
-Model.ipynb contain the models 
-
-You may need to change paths to launch the code
 
 
