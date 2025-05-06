@@ -46,7 +46,7 @@
 
 - We focus on 2 specific KPIs which are Accuracy and Recall, the goal is to ensure the precision of the classification and also to focus on the model's ability to identify true positives among the model's positive elements.
 
-- The best performances are given by Random Forest and Xgboost classifiers
+- The best performances in test samples are given by Random Forest and Xgboost classifiers
 
 Accuracy Score:  0.9090909090909091
 
@@ -55,6 +55,23 @@ Recall Score: 0.7058823529411765
 AUC:  0.8240950226244345
 
 KS:  0.6481900452488688
+
+- Pour XGBoost on a ces courbes d'accuracy et de recall
+
+  ![image](https://github.com/user-attachments/assets/9110db80-b3fb-4c1a-b2c9-6d2606d88693)
+
+- We can compute the features importance and evaluate which feature is impactful in the model prediction
+  ![image](https://github.com/user-attachments/assets/5995270e-6d68-4b7b-a467-65e434f67445)
+
+
+### Results and Areas for Improvement
+
+- The main advantages of this model is that we managed to have a good recall, which shows that in most of the cases the model is good at predicting the True Positive Covid19 patient and True negative one which is the most important because in that type of health project we particularly want to avoid False Negative
+- We reach a certain treshold in the accuracy and recall
+- The size of test data in the database is quiet small, we also lack of information there is a lot of missing values, the data collection could be improved by the hospital and maybe enhanced the model performances
+- We need to see how the model generalize to new data
+
+   
 
 
 
