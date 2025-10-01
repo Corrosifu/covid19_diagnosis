@@ -56,7 +56,7 @@ AUC:  0.8240950226244345
 
 KS:  0.6481900452488688
 
-- Pour XGBoost on a ces courbes d'accuracy et de recall
+- For XGBoost we got this
 
   ![image](https://github.com/user-attachments/assets/9110db80-b3fb-4c1a-b2c9-6d2606d88693)
 
